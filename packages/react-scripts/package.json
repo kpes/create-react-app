@@ -1,8 +1,8 @@
 {
-  "name": "react-scripts",
-  "version": "2.1.5",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": "facebook/create-react-app",
+  "name": "electron-react-scripts",
+  "version": "1.0.0",
+  "description": "Configuration and scripts for Create React App with Electron.",
+  "repository": "kpes/create-react-app",
   "license": "MIT",
   "engines": {
     "node": ">=6"
@@ -73,6 +73,7 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "devDependencies": {
+    "electron": "^4.0.5",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
