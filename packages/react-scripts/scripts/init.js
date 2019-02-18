@@ -97,7 +97,7 @@ module.exports = function(
 
   // Setup the script rules
   appPackage.scripts = {
-    start: `${ownPackage['name']} start`,
+    start: `BROWSER=none ${ownPackage['name']} start`,
     build: `${ownPackage['name']} build`,
     test: `${ownPackage['name']} test`,
     eject: `${ownPackage['name']} eject`,
@@ -109,7 +109,7 @@ module.exports = function(
   };
 
   // Setup the browsers list
-  appPackage.browserslist = ['Electron'];
+  appPackage.browserslist = ['Electron >= 4'];
 
   fs.writeFileSync(
     path.join(appPath, 'package.json'),

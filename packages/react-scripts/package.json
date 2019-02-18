@@ -20,7 +20,7 @@
     "utils"
   ],
   "bin": {
-    "react-scripts": "./bin/react-scripts.js"
+    "electron-react-scripts": "./bin/electron-react-scripts.js"
   },
   "types": "./lib/react-app.d.ts",
   "dependencies": {

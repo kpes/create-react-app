@@ -42,7 +42,7 @@ const shouldUseSourceMap = process.env.GENERATE_SOURCEMAP !== 'false';
 const shouldInlineRuntimeChunk = process.env.INLINE_RUNTIME_CHUNK !== 'false';
 
 // Check if TypeScript is setup
-const useTypeScript = fs.existsSync(paths.appTsConfig);
+const useTypeScript = fs.existsSync(paths.baseTsConfig);
 
 // style files regexes
 const cssRegex = /\.css$/;
